@@ -9,6 +9,7 @@ import {Error404Component} from './notfound/error404/error404.component'
 import {NotfoundComponent} from './notfound/notfound.component'
 import {LoginComponent} from './auth/login/login.component'
 import { RegisterComponent } from './auth/register/register.component';
+import {HomeComponent} from './web/home/home.component'
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { RegisterComponent } from './auth/register/register.component';
     NotfoundComponent,
     Error404Component,
     RegisterComponent,
-    LoginComponent
+    LoginComponent,
+    HomeComponent
     
   ],
   imports: [
