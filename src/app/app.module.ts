@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
+import {NavComponent} from './shared/nav/nav.component'
 import { AppComponent } from './app.component';
 import { WebComponent } from './web/web.component';
 import {PagesComponent} from './pages/pages.component'
@@ -10,6 +11,8 @@ import {NotfoundComponent} from './notfound/notfound.component'
 import {LoginComponent} from './auth/login/login.component'
 import { RegisterComponent } from './auth/register/register.component';
 import {HomeComponent} from './web/home/home.component'
+import {ContactComponent} from './web/contact/contact.component'
+import {ProductsComponent} from './web/products/products.component'
 
 
 @NgModule({
@@ -21,7 +24,10 @@ import {HomeComponent} from './web/home/home.component'
     Error404Component,
     RegisterComponent,
     LoginComponent,
-    HomeComponent
+    HomeComponent,
+    ContactComponent,
+    ProductsComponent,
+    NavComponent
     
   ],
   imports: [
